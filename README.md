@@ -1,4 +1,4 @@
-# plant-disease-detection
+# Plant Disease Detection
 
  An end-to-end deep learning system for detecting plant diseases from leaf images. This repository includes a comprehensive PyTorch-based training pipeline using transfer learning (VGG19, ResNet34, DenseNet121) and a user-friendly Streamlit web application for real-time disease diagnosis.
 
@@ -53,10 +53,6 @@ The Streamlit app (`app.py`) provides:
    ```bash
    pip install -r requirements.txt
    ```
-
-3. Download model weights:
-   The model weights files are too large for GitHub. Download them from [link to your storage] and place them in the `weights` directory.
-
 ### Training Models
 To train the models yourself:
  - Download the dataset and upload on your Google Drive
